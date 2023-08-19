@@ -53,6 +53,7 @@ img {
     display: flex;
 }
 .nav {
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
     display: flex;
     align-items: center;
 }
@@ -240,6 +241,10 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0
 .list-our-team {
     background-color: #F4F4FD;
 }
+.our-team-social-media{
+    fill: #f4f4fd;
+}
+
 .social-media-list{
     display: flex;
     justify-content: center;
@@ -277,7 +282,7 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0
  color: #2E2F42;
  font-size: 36px;
  text-transform: capitalize;
- line-height: 40px;
+ line-height: 1.11px;
  letter-spacing: 0.72px;
  margin-bottom: 72px;
  text-align: center;
@@ -535,6 +540,8 @@ color: #404BBF;
 }
 
 .secondary-list {
+    border: 4px;
+    margin-bottom: 8px;
     gap: 24px;
     display: flex;
   
@@ -549,6 +556,7 @@ color: #404BBF;
 }
 
 .sec-item{
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08) ;
     flex-basis: calc((100% - 72px) / 4);
 }
 .likethis {
@@ -588,6 +596,8 @@ gap: 24px;
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
  background-color: #FFFFFF;
+ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
 
 }
 .people-names {
