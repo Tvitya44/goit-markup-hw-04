@@ -49,11 +49,11 @@ img {
     box-shadow: 0px 1px 1px rgba(red, green, blue, alpha);
 }
 .first {
-
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     display: flex;
 }
 .nav {
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+    
     display: flex;
     align-items: center;
 }
@@ -135,6 +135,8 @@ transition: color var(--timing-function);
     align-items: center;
 }
 .sprite-icons{
+    border-radius: 4px;
+    margin-bottom: 8px;
     display: flex;
    align-items: center;
    justify-content: center;
@@ -251,6 +253,10 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0
     align-items: center;
     gap: 24px;
 } 
+.media-item{
+    border-radius: 50%;
+    fill: #f4f4fd;
+}
 .social-media-item{
     width: 40px;
     height: 40px;
@@ -279,10 +285,10 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0
 }
 
 .customers-title {
+    line-height: 1.11;
  color: #2E2F42;
  font-size: 36px;
  text-transform: capitalize;
- line-height: 1.11px;
  letter-spacing: 0.72px;
  margin-bottom: 72px;
  text-align: center;
@@ -556,7 +562,6 @@ color: #404BBF;
 }
 
 .sec-item{
-    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08) ;
     flex-basis: calc((100% - 72px) / 4);
 }
 .likethis {
