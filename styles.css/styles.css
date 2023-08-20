@@ -46,10 +46,10 @@ img {
 /* header */
 .headin {
     border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 1px 1px rgba(red, green, blue, alpha);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .first {
-   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08) ;
+   /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08) ; */
     display: flex;
 }
 .nav {
@@ -112,6 +112,7 @@ img {
 }
 
 .adr {
+    /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
     font-style: normal;
     margin-left: auto;
 
@@ -489,6 +490,7 @@ pointer-events: none;
     gap: 40px;
 }
 .nav-item {
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     margin-right: 76px;
 }
 .texthead {
