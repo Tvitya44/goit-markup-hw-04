@@ -441,6 +441,7 @@ visibility: hidden;
 pointer-events: none;
 }
 .modal {
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translate(-50%, -50%) scale(1);
     top: 50%;
     left: 50%;
@@ -453,6 +454,10 @@ pointer-events: none;
 }
 
 .close-btn {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0;
     line-height: 0;
     width: 24px;
@@ -467,6 +472,7 @@ pointer-events: none;
 }
 .close-btn:hover,
 .close-btn:focus {
+    border: none;
     background-color: #404BBF;
     transition: background-color var(--timing-function);
 }
@@ -554,10 +560,11 @@ color: #404BBF;
     
 } 
 .our-services{
-    display: inline-flexbox;
+    display: block;
 }
 .our-services:hover,
 .our-services:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     outline: 3px solid red;
 }
 
@@ -633,6 +640,7 @@ gap: 24px;
     margin-bottom: 72px;
 }
 .knopka {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
@@ -663,6 +671,7 @@ gap: 24px;
     margin-bottom: 8px;
 }
 .portpicsitem {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     flex-basis: calc((100% - 48px) / 3);
 }
 
