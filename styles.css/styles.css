@@ -628,6 +628,7 @@ gap: 24px;
 }
 .footer-links {
     align-items: baseline;
+    margin-right: 80px;
 }
 .section-footer-text {
     max-width: 264px;
@@ -698,5 +699,128 @@ gap: 24px;
 .our-services:hover .overlay,
 .our-services:focus .overlay {
     transform: translateY(0);
+}
 
+
+/* modal form */
+.form {
+    display: inline-flex;
+    position: relative;
+    display: block;
+    border-radius: 4px;
+    border: #8E8F99 solid 1px;
+    width: 360px;
+    height: 58px;
+}
+.modal-form-icon{
+    position: absolute;
+    width: 18px;
+    padding: 3px 0px;
+    gap: 4px;
+}
+.form-para{
+width: 360px;
+height: 24px;
+color: #2E2F42;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+margin: 72px 24px;
+}
+.form-label {
+color: var(--lightslate, #8E8F99);
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; 
+letter-spacing: 0.48px;
+}
+.textarea{
+    width: 360px; 
+}
+.useragreement{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.48px;
+}
+.footerspan{
+    color: var(--iris, #4D5AE5);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+    text-decoration-line: underline;   
+}
+.footeragreement{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.checkbox{
+margin-right: 8px;
+}
+.modal-form-field{
+position: relative;
+}
+
+
+
+
+
+
+/* Footer-form */
+.footer-subscribe-form {
+  
+}
+.footer-subs {
+    color: var(--white, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+  
+
+}
+.footer-form-subs {
+  
+}
+.subs-input {
+    margin-right: 24px;
+    color: var(--primary-white-color);
+    border-radius: 4px;
+    border: 1px solid var(--white, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);    
+    background-color: #2E2F42;
+    margin-top: 16px;
+    width: 264px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.form-btn {
+display: inline-flex;
+color: #e7e9fc;
+border-radius: 4px;
+background: var(--iris, #4D5AE5);
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+}
+.placeholder{
+    color: var(--white, #FFF);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 200% */
+    letter-spacing: 0.48px; 
+}
+.footer-btn-icon{
+    justify-content: center;
+    align-items: center;
 }
